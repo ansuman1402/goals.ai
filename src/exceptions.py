@@ -1,6 +1,7 @@
 import sys
 from logger import logging
 
+
 def error_message(error, error_message:sys):
     _, _, exc_tb = error_message.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
